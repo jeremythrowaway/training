@@ -1,0 +1,8 @@
+language: java
+jdk: openjdk11
+cache:
+  directories: $HOME/.m2
+notifications:
+  email: 
+    recipients: jeremysmythfas+github@gmail.com
+    on_failure: always
